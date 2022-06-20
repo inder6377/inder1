@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+
+
+    <style>
+        .hell{
+            color: blueviolet !important;
+        }
+
+        .backg{
+            background-image: url("images/backg\ space.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+        }
+        /* img.24img{
+            max-height: 408px;
+        } */
+
+        i.resi{
+          color: rgba(10, 124, 0, 0.918);
+          font-size: 40px;
+        }
+        .bgk{
+          background-image: url("");
+  background-color: #cccccc;
+  background-size: cover;
+        }
+
+        .cd1 ,.cd2, .cd3{
+          transition-property: all;
+          transition-duration: 0.5s;
+         
+         transition-timing-function: ease-in;
+  
+         
+        }
+        .cd1:hover, .cd2:hover, .cd3:hover{
+         box-shadow: 0PX 0PX 8PX 4px red;
+       
+        }
+        .vk6{
+          margin-top: 20px;
+        }
+
+
+
+       
+
+        
+        div.hob{
+          display: none;
+          background-color: chartreuse;
+          font-size: large;
+          padding: 10px;
+          font-family: cursive;
+        }
+        i.hobe:hover + div.hob{
+          display: block;
+        }
+
+        input{
+          transition: all;
+          transition-duration: 0.5s;
+          transition-timing-function: ease-in;
+
+        }
+        input:hover{
+          box-shadow: 0PX 0PX 8PX 4px rgb(34, 33, 33);
+        }
+        .fontfoot{
+          font-size: larger;
+          color: blue;
+          margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-dark mb-1">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-light">
+                        <div class="container-fluid">
+                        <a class="navbar-brand hell">Hello !</a>
+                        <form class="d-flex">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">about</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">experience</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">education</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link ">last work</a>
+                                </li>
+                            </ul>
+                        </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    
+    <div class="container-fluid backg pt-5 pb-5">
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div class="col-5 align-self-center text-light">
+               <h2 class="intro-title">I am vikash mehta </h2>
+               <p class="intro-subtitle"><span class="text-slider-items">website designer,web doveloper, photoshop editor</span><strong class="text-slider"></strong></p>
+            </div>
+            <div class="col-6">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/img21.jpg" class="d-block w-100 img-fluid" alt="first">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>hi</h5>
+                          <p>i am a website designer and doveloper</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="images/img22.jpg" class="d-block img-fluid w-100 24img" alt="second">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>curruntly</h5>
+                          <p>curruntly i am working with kalamkunj acadamy</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/img23.jpg" class="d-block w-100 img-fluid" alt="third">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>work experience</h5>
+                          <p>i have 3 months work experiemce from kalamkunj acadamy .</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bgk">
+      <div class="container pt-5 pb-4">
+        <div class="row">
+          <div class="col-4">
+            <div class="card cd1" >
+              <img src="images/img21.jpg" alt="">
+              <div class="card-body text-center">
+                <h4 class="card-title">about myself</h4>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, aut. Asperiores, consequuntur harum nulla atque nihil. 
+                </p>
+                <button type="button" class="btn btn-success rounded-pill">know more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card cd2 ">
+              <img src="images/img22.jpg" alt="">
+              <div class="card-body text-center">
+                <h4 class="card-title">resume</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque dolorum fugit fuga beatae quos.</p>
+                <i class="fa fa-smile-o resi hobe"></i>
+                <div class="hob">thank u for interesting</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card cd3">
+              <img src="images/img23.jpg" alt="">
+              <div class="card-body text-center">
+                <h4 class="card-title">services</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloribus minus, temporibus quis officia.</p>
+                <button type="button" class="btn btn-danger square-pill "><i class="fa fa-arrow-right "></i></button>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="images/img5.jpg" class="img-fluid  pt-5 pb-3" alt="">
+            
+          </div>
+          <div class="col-4 pt-3">  
+          <h5 class="vk6">   <i style="color: red;" class="fa fa-arrow-circle-right mx-3"></i>Name: <span class="text-muted ">Vikash Mehta</span> </h5>
+            <h5 class="vk6">  <i  style="color: red;"class="fa fa-arrow-circle-right  px-3 "></i>Website : <a href="https://www.kalamkunj.com/">kalamkunj.com</a></h5>
+            <h5 class="vk6">  <i  style="color: red;"class="fa fa-arrow-circle-right mx-3"></i>Name:<tel>+91 6376415198</tel> </h5>
+            <h5 class="vk6"> <i style="color: red;" class="fa fa-arrow-circle-right mx-3"></i> City : <span class="text-muted">Jaipur India</span></h5>
+
+            <div class=" pt-1 ">
+            <h2> <i  style="color: green;" class="fa fa-smile-o px-3"></i>10</h2>
+            <p class="px-5">Happy Clients Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class=" pt-1">
+              <h2> <i  style="color: blue;"class="fa fa-clock-o px-3"></i>2 yrs.</h2>
+              <p class="px-5">Happy Clients Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <h4>HTML</h4>
+            <div class="progress">
+              
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+            <h4>CSS</h4>
+            <div class="progress">
+              
+              <div class="progress-bar progress-bar-striped  progress-bar-animated bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+            </div>
+            <h4>JAVASCRIPT</h4>
+            <div class="progress">
+              
+              <div class="progress-bar progress-bar-striped  progress-bar-animated bg-danger" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+            </div>
+          </div>
+            <div class="col-4 pt-3">
+              <h5 class="vk6">   <i style="color: red;" class="fa fa-arrow-circle-right mx-3"></i>Age : <span class="text-muted ">22 years old</span> </h5>
+              <h5 class="vk6">  <i  style="color: red;"class="fa fa-arrow-circle-right  px-3 "></i>Degree : <span class="text-muted">master</span></h5>
+              <h5 class="vk6">  <i  style="color: red;"class="fa fa-arrow-circle-right mx-3"></i>Email : <span style="color: rgb(202, 78, 5);">  vikki0601@gmail.com</span> </h5>
+              <h5 class="vk6"> <i style="color: red;" class="fa fa-arrow-circle-right mx-3"></i> Freelance : <span class="text-muted">available</span></h5>
+              
+                                   
+            <div class="">
+              <h2> <i  style="color: rgb(0, 94, 218);" class="fa fa-file px-3" ></i>10</h2>
+              <p class="px-5">Happy Clients Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class=" pt-1">
+                <h2> <i  style="color: rgba(184, 187, 9, 0.863);"class="fa fa-trophy px-3" ></i>2 yrs.</h2>
+                <p class="px-5">Happy Clients Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <h4>REACT</h4>
+              <div class="progress">
+                
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+              <h4>UI designer</h4>
+              <div class="progress">
+                
+                <div class="progress-bar progress-bar-striped  progress-bar-animated bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+              <h4>JQUARRY</h4>
+              <div class="progress">
+                
+                <div class="progress-bar progress-bar-striped  progress-bar-animated bg-danger" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
+              </div>
+   
+
+  
+          </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 py-3">
+          <caption class=""><h3 style="color: red;">contact us</h3></caption>
+          <form class="border-danger border p-3 form1 bg-info" action="https://formspree.io/f/mqknoaqq"method="POST">
+          
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">name</label>
+              <input type="text" name="name" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPass" class="form-label">phone number</label>
+              <input type="number" name="number" class="form-control" id="exampleInputPass">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"> textarea</label>
+              <textarea class="form-control"  name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+        </div>
+        <div class="col-6 py-3">
+          <h3 style="color:red;">find us</h3> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.38256937545!2d75.65047257103647!3d26.885447914529944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1655704942041!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+      
+    <footer>
+      <div class="container"> 
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-4">
+            <i class="fa fa-whatsapp fontfoot"></i>
+            <i class="fa fa-facebook fontfoot"></i>
+            <i class="fa fa-twitter fontfoot"></i>
+          </div>
+          <div class="col-4">
+
+          </div>
+        </div>
+      </div>
+    </footer>
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
